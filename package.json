@@ -1,0 +1,24 @@
+{
+  "name": "huddlenote",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "keywords": [],
+  "author": "Shameem Reza",
+  "license": "ISC",
+  "description": "Take note of your meetings and conversations with HuddleNote. HuddleNote is a desktop application that uses OpenAI's Whisper API to transcribe audio and Tesseract.js to extract text from images. It also uses the OpenAI API to summarize the transcriptions.",
+  "dependencies": {
+    "@dqbd/tiktoken": "^1.0.20",
+    "dotenv": "^16.5.0",
+    "electron": "^35.1.5",
+    "fluent-ffmpeg": "^2.1.3",
+    "openai": "^4.95.1",
+    "sharp": "^0.34.1",
+    "tesseract.js": "^6.0.1"
+  },
+  "devDependencies": {
+    "electron-builder": "^26.0.12"
+  }
+}

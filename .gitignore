@@ -1,0 +1,58 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Environment variables
+.env
+
+# Compiled binary addons
+build/Release
+
+# Dependency directories
+node_modules/
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# IDE and editor settings
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Electron-specific
+/dist
+/out
+*.asar
+
+# Temp files
+temp/
+temp/**
+
+# Coverage
+coverage/
+*.lcov
+
+# Log from `rimraf`
+*.swp
+
+# Misc
+*.tgz
+*.bak
+*.old
